@@ -1,4 +1,3 @@
-```markdown
 # GDB Debugger
 
 - Debug C/C++ programs interactively.
@@ -8,4 +7,3 @@
   - `next`/`step`: Step over/into.
   - `print`: Inspect variables.
   - `backtrace`: View call stack.
-```
