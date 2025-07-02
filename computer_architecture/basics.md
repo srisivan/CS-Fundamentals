@@ -1,4 +1,3 @@
-```markdown
 # Computer Architecture Basics
 
 - **CPU:** Executes instructions, control unit, ALU, registers.
@@ -7,4 +6,3 @@
 - **Cache:** Small fast memory between CPU and RAM, reduces latency.
 - **Pipelining:** Technique to improve throughput.
 - **Instruction Set Architecture (ISA):** Defines supported instructions.
-```
