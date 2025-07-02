@@ -1,12 +1,9 @@
-```markdown
 # Makefile in C
 
 ## Purpose
-Automates compilation: dependencies & rules.
-
-## Tools
-- `make` reads Makefile instructions.
-- `cmake` generates Makefiles or other build systems.
+- Automate build steps.
+- Handles dependencies.
+- Reduces repetitive compilation.
 
 ## Example
 ```makefile
@@ -22,3 +19,7 @@ utils.o: utils.c
 clean:
 \trm *.o app
 ```
+
+## make vs cmake
+- `make` uses manual Makefile.
+- `cmake` generates Makefiles automatically.

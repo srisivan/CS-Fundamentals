@@ -1,14 +1,20 @@
-```markdown
 # Linker in C
 
-## Function
-Combines object files into executables.
+## What is a Linker?
+- Combines multiple object files into a single executable.
+- Resolves external symbols and addresses.
 
-## Types
-- Static linking: includes library code → big binary, portable.
-- Dynamic linking: uses shared libraries → smaller binary, needs runtime lib.
+## How it works
+1. Reads object files.
+2. Matches function and variable references.
+3. Puts code/data in final memory layout.
+4. Creates final executable.
 
-## Which is better?
-Dynamic: saves space, easier updates.
-Static: portable, no dependency at runtime.
-```
+## Static Linking
+- Libraries copied into executable.
+- No dependency at runtime.
+
+## Dynamic Linking
+- Links to shared libraries at runtime.
+- Smaller executables.
+- Uses `.so` files on Linux.

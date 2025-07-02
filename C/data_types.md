@@ -1,40 +1,31 @@
-```markdown
 # Data Types in C
 
-## Types
-- **int**, **char**, **float**, **double**, **void**, **short**, **long**, **signed**, **unsigned**
+## Primitive Types
+- `int`: Integer numbers.
+- `char`: Single character.
+- `float`: Single-precision float.
+- `double`: Double-precision float.
+- `void`: No data.
 
-## Usage
-Examples:
-```c
-int a = 5;
-char c = 'A';
-float f = 3.14;
-```
+## Qualifiers
+- `signed` / `unsigned`: Controls sign.
+- `short` / `long`: Changes size.
 
 ## Memory Size
-- `char` → 1 byte  
-- `int` → 4 bytes  
-- `float` → 4 bytes  
-- `double` → 8 bytes
+- Platform dependent.
+- Typical: `char` (1B), `int` (4B), `float` (4B), `double` (8B).
 
-## Prefix/Postfix Operators
-```c
-int a = 1;
-int b = ++a; // prefix: a=2, b=2
-int c = a++; // postfix: a=3, c=2
-```
+## Prefix/Postfix
+- `++a` → Increment then use.
+- `a++` → Use then increment.
 
-## Structures & Unions
+## Structures
+- Group multiple variables of different types.
+- Example:
 ```c
-struct Person {
-  char name[20];
+struct Student {
+  char name[50];
   int age;
 };
 
-union Data {
-  int i;
-  float f;
-  char str[20];
-};
-```
+

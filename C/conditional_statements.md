@@ -1,17 +1,22 @@
-```markdown
 # Conditional Statements in C
 
-## What
-- Control flow: `if`, `else if`, `else`, `switch`
+## Purpose
+Control flow based on conditions.
+
+## Statements
+- `if`: Checks condition.
+- `else if`: Checks additional conditions.
+- `else`: Executes when no prior condition is true.
+- `switch`: Multi-way branch for discrete values.
 
 ## Syntax
 ```c
 if (x > 0) {
-  // do something
+  // Positive
 } else if (x == 0) {
-  // do something else
+  // Zero
 } else {
-  // fallback
+  // Negative
 }
 
 switch (x) {
@@ -22,7 +27,6 @@ switch (x) {
 }
 ```
 
-## When to use
-- `if/else` for ranges/complex conditions
-- `switch` for discrete known values
-```
+## Best Practices
+- Use braces `{}` even for single-line blocks.
+- Prefer `switch` for fixed options.
