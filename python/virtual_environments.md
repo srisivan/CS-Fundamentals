@@ -1,12 +1,11 @@
-```markdown
-# Python Virtual Environments
+# Virtual Environments in Python
 
-Isolated environments for projects.
+## Why?
+- Isolate dependencies per project.
 
 ## Commands
 ```bash
-python -m venv myenv
-source myenv/bin/activate  # Linux/macOS
-myenv\Scripts\activate    # Windows
-```
+python -m venv env
+source env/bin/activate  # Linux/Mac
+env\\Scripts\\activate  # Windows
 ```

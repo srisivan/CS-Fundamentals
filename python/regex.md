@@ -1,20 +1,21 @@
-```markdown
-# Regex in Python
+# Regular Expressions in Python
+
+## What is Regex?
+- Used for searching, matching, pattern recognition.
 
 ## Module
-`import re`
+- `import re`
 
-## Functions
-- `re.match()`: checks for match at beginning.
-- `re.search()`: searches anywhere.
-- `re.findall()`: all matches.
+## Common Methods
+- `re.match()`
+- `re.search()`
+- `re.findall()`
+- `re.sub()`
 
 ## Example
 ```python
 import re
-pattern = r"[a-z]+"
-text = "Hello123"
-result = re.findall(pattern, text)
+pattern = r"\d+"
+result = re.findall(pattern, "There are 2 apples and 5 oranges")
 print(result)
-```
 ```

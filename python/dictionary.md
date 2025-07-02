@@ -1,14 +1,18 @@
-```markdown
-# Dictionary in Python
+# Dictionaries in Python
 
-Key-value pairs.
+## What is a Dictionary?
+- Key-value pairs.
+- Unordered.
+- Keys must be unique and hashable.
 
-## Syntax
+## Common Operations
+- Access: `dict[key]`
+- Get: `dict.get(key)`
+- Add: `dict[key] = value`
+- Iterate: `for key, val in dict.items()`
+
+## Example
 ```python
 my_dict = {'name': 'Srisivan', 'age': 25}
-```
-
-## Methods
-- `.keys()`, `.values()`, `.items()`
-- `.get()`, `.update()`
+print(my_dict['name'])
 ```

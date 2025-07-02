@@ -1,14 +1,14 @@
-```markdown
-# Garbage Collector in Python
+# Python Garbage Collector
 
-Automatic memory management.
+## What it Does
+- Frees unused memory automatically.
 
 ## Module
-`import gc`
+- `import gc`
+- Force collection: `gc.collect()`
 
 ## Example
 ```python
 import gc
 gc.collect()
-```
 ```

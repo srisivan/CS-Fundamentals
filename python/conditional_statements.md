@@ -1,13 +1,15 @@
-```markdown
 # Conditional Statements in Python
+
+## Keywords
+- if, elif, else.
 
 ## Syntax
 ```python
-if x > 0:
-    print("Positive")
-elif x == 0:
-    print("Zero")
+x = 10
+if x > 5:
+    print("Greater than 5")
+elif x == 5:
+    print("Equal to 5")
 else:
-    print("Negative")
-```
+    print("Less than 5")
 ```

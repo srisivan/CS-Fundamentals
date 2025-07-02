@@ -1,19 +1,22 @@
-```markdown
 # Exception Handling in Python
+
+## Why?
+- Handle runtime errors gracefully.
 
 ## Syntax
 ```python
 try:
-    x = 1 / 0
-except ZeroDivisionError:
-    print("Cannot divide by zero.")
+    risky()
+except Exception as e:
+    print(e)
+else:
+    print("No error")
 finally:
-    print("Cleanup done.")
+    print("Always runs")
 ```
 
-## raise
-Manually raise an exception:
+## Raise
+- Manually throw error.
 ```python
-raise ValueError("Invalid value")
-```
+raise ValueError("Invalid input")
 ```

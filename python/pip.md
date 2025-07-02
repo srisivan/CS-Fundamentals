@@ -1,10 +1,9 @@
-```markdown
 # pip in Python
 
-Package installer for Python.
+## What is pip?
+- Python’s package installer.
 
 ## Commands
-- `pip install package`
-- `pip list`
-- `pip uninstall package`
-```
+- `pip install requests`
+- `pip uninstall requests`
+- `pip freeze > requirements.txt`
