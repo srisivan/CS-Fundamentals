@@ -93,7 +93,7 @@ int main() {
 }
 ```
 
-⚠️ Be careful: Macros don’t perform type checking. For example:
+Macros don’t perform type checking. For example:
 ```c
 printf("%d", SQUARE(1+2));  // expands to (1+2 * 1+2) = 5 (not 9)
 ```
