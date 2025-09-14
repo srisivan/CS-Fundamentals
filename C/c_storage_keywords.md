@@ -71,7 +71,7 @@ int main() {
 ### Definition:
 The **`register`** keyword is a storage class specifier that suggests to the compiler that a variable should be stored in a **CPU register** instead of RAM (for faster access).
 
-⚠️ Modern compilers usually ignore this hint and optimize automatically.
+Modern compilers usually ignore this hint and optimize automatically.
 
 ### Use Cases:
 - Loop counters
@@ -90,7 +90,7 @@ int main() {
 }
 ```
 
-⚠️ You **cannot take the address** of a `register` variable using `&`.
+You **cannot take the address** of a `register` variable using `&`.
 
 ---
 
